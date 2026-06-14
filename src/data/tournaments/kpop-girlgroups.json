@@ -15,7 +15,7 @@
     { "id": "8",  "name": "NewJeans - Minji",     "nameKo": "민지",  "image": "/api/img?q=Kim Min-ji (singer)" },
     { "id": "9",  "name": "LE SSERAFIM - Chaewon","nameKo": "채원",  "image": "/api/img?q=Kim Chae-won (singer)" },
     { "id": "10", "name": "LE SSERAFIM - Sakura", "nameKo": "사쿠라","image": "/api/img?q=Miyawaki Sakura" },
-    { "id": "11", "name": "aespa - Karina",       "nameKo": "카리나","image": "/api/img?q=Karina (singer)" },
+    { "id": "11", "name": "aespa - Karina",       "nameKo": "카리나","image": "/api/img?q=aespa" },
     { "id": "12", "name": "aespa - Winter",       "nameKo": "윈터",  "image": "/api/img?q=Winter (singer)" },
     { "id": "13", "name": "TWICE - Nayeon",       "nameKo": "나연",  "image": "/api/img?q=Nayeon" },
     { "id": "14", "name": "TWICE - Sana",         "nameKo": "사나",  "image": "/api/img?q=Sana (singer)" },

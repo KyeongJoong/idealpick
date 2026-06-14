@@ -4,14 +4,41 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { getAllTournaments, CATEGORIES, type TournamentMeta } from "@/lib/tournaments";
 
+function Thumb({ name, image, eager }: { name: string; image: string; eager: boolean }) {
+  const [failed, setFailed] = useState(false);
+  return (
+    <div className="relative overflow-hidden bg-gradient-to-br from-brand-indigo/10 to-brand-amber/10 flex items-center justify-center">
+      {!failed ? (
+        <img
+          src={image}
+          alt={name}
+          className="absolute inset-0 h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+          loading={eager ? "eager" : "lazy"}
+          onError={() => setFailed(true)}
+        />
+      ) : (
+        <span className="text-base font-bold text-brand-indigo/40 select-none">{name.charAt(0)}</span>
+      )}
+    </div>
+  );
+}
+
 function TournamentCard({ t }: { t: TournamentMeta }) {
+  const preview = t.contestants.slice(0, 4);
   return (
     <Link
       href={`/play/${t.id}`}
       className="group relative flex flex-col overflow-hidden rounded-2xl bg-white shadow-card hover:shadow-hover transition-all duration-200 hover:-translate-y-1"
     >
-      <div className="flex items-center justify-center bg-gradient-to-br from-brand-indigo/10 to-brand-amber/10 h-28 text-5xl select-none">
-        {t.emoji}
+      {/* 2x2 image mosaic */}
+      <div className="relative grid grid-cols-2 aspect-[4/3] overflow-hidden">
+        {preview.map((c, i) => (
+          <Thumb key={c.id} name={c.name} image={c.image} eager={i < 2} />
+        ))}
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
+        <span className="absolute left-2 top-2 rounded-full bg-white/80 px-2 py-0.5 text-xs font-bold text-brand-indigo backdrop-blur">
+          {t.emoji}
+        </span>
       </div>
       <div className="p-3">
         <h2 className="text-sm font-bold text-brand-ink leading-tight line-clamp-2">{t.title}</h2>
