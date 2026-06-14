@@ -6,6 +6,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://idealpick.vercel.a
 const ADSENSE_ID = process.env.NEXT_PUBLIC_ADSENSE_ID ?? "";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "Ideal Pick — Ultimate Worldcup Bracket Game",
   description:
     "Pick your ultimate favourite in 1v1 bracket tournaments! Marvel, Anime, Disney, K-POP, Pokémon, Football, and more. Free to play, fun to share!",
@@ -51,6 +52,24 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         )}
       </head>
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "Ideal Pick",
+              url: SITE_URL,
+              description: "1v1 bracket tournaments for Marvel, Anime, K-POP, Pokémon, Disney, Football, and more.",
+              inLanguage: "en",
+              potentialAction: {
+                "@type": "SearchAction",
+                target: { "@type": "EntryPoint", urlTemplate: `${SITE_URL}/?q={search_term_string}` },
+                "query-input": "required name=search_term_string",
+              },
+            }),
+          }}
+        />
         {children}
         <Analytics />
       </body>
