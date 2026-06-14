@@ -12,7 +12,10 @@ export async function GET(request: NextRequest): Promise<Response> {
   try {
     const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(q)}`;
     const res = await fetch(url, {
-      headers: { "Api-User-Agent": "IdealPick/1.0 (https://idealpick.vercel.app)" },
+      headers: {
+        "User-Agent": "IdealPick/1.0 (https://idealpick.vercel.app; contact: kjoong1016@gmail.com)",
+        "Api-User-Agent": "IdealPick/1.0 (https://idealpick.vercel.app)",
+      },
     });
     if (res.ok) {
       const data = await res.json() as { thumbnail?: { source: string } };
