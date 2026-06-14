@@ -1,0 +1,25 @@
+{
+  "id": "football-legends",
+  "title": "Football Legend Worldcup",
+  "titleSub": "Who is the greatest footballer of all time?",
+  "category": "sports",
+  "description": "16 all-time football greats go head to head — GOAT debate settled by you!",
+  "contestants": [
+    { "id": "1",  "name": "Lionel Messi",      "nameKo": "리오넬 메시",   "image": "/images/football/messi.jpg" },
+    { "id": "2",  "name": "Cristiano Ronaldo", "nameKo": "크리스티아누 호날두","image": "/images/football/ronaldo.jpg" },
+    { "id": "3",  "name": "Pelé",             "nameKo": "펠레",          "image": "/images/football/pele.jpg" },
+    { "id": "4",  "name": "Diego Maradona",   "nameKo": "마라도나",      "image": "/images/football/maradona.jpg" },
+    { "id": "5",  "name": "Ronaldinho",       "nameKo": "호나우지뉴",    "image": "/images/football/ronaldinho.jpg" },
+    { "id": "6",  "name": "Zinedine Zidane",  "nameKo": "지단",          "image": "/images/football/zidane.jpg" },
+    { "id": "7",  "name": "Ronaldo Nazário",  "nameKo": "호나우두",      "image": "/images/football/r9.jpg" },
+    { "id": "8",  "name": "Kylian Mbappé",    "nameKo": "음바페",        "image": "/images/football/mbappe.jpg" },
+    { "id": "9",  "name": "Erling Haaland",   "nameKo": "홀란드",        "image": "/images/football/haaland.jpg" },
+    { "id": "10", "name": "Neymar Jr.",        "nameKo": "네이마르",      "image": "/images/football/neymar.jpg" },
+    { "id": "11", "name": "Thierry Henry",     "nameKo": "앙리",          "image": "/images/football/henry.jpg" },
+    { "id": "12", "name": "David Beckham",    "nameKo": "베컴",          "image": "/images/football/beckham.jpg" },
+    { "id": "13", "name": "Luka Modrić",      "nameKo": "모드리치",      "image": "/images/football/modric.jpg" },
+    { "id": "14", "name": "Karim Benzema",    "nameKo": "벤제마",        "image": "/images/football/benzema.jpg" },
+    { "id": "15", "name": "Vinicius Jr.",      "nameKo": "비니시우스",    "image": "/images/football/vinicius.jpg" },
+    { "id": "16", "name": "Son Heung-min",    "nameKo": "손흥민",        "image": "/images/football/son.jpg" }
+  ]
+}

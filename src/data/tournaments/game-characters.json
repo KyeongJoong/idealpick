@@ -1,0 +1,25 @@
+{
+  "id": "game-characters",
+  "title": "Video Game Character Worldcup",
+  "titleSub": "Who is the greatest video game character ever?",
+  "category": "games",
+  "description": "16 legendary video game characters battle it out — who's the ultimate player 1?",
+  "contestants": [
+    { "id": "1",  "name": "Mario",               "nameKo": "마리오",      "image": "/images/games/mario.jpg" },
+    { "id": "2",  "name": "Link (Zelda)",         "nameKo": "링크",        "image": "/images/games/link.jpg" },
+    { "id": "3",  "name": "Master Chief (Halo)",  "nameKo": "마스터 치프", "image": "/images/games/masterchief.jpg" },
+    { "id": "4",  "name": "Kratos (God of War)",  "nameKo": "크라토스",    "image": "/images/games/kratos.jpg" },
+    { "id": "5",  "name": "Geralt (Witcher)",     "nameKo": "게롤트",      "image": "/images/games/geralt.jpg" },
+    { "id": "6",  "name": "Lara Croft",           "nameKo": "라라 크로프트","image": "/images/games/lara.jpg" },
+    { "id": "7",  "name": "Cloud Strife (FF7)",   "nameKo": "클라우드",    "image": "/images/games/cloud.jpg" },
+    { "id": "8",  "name": "Solid Snake (MGS)",    "nameKo": "솔리드 스네이크","image": "/images/games/snake.jpg" },
+    { "id": "9",  "name": "Samus Aran (Metroid)", "nameKo": "사무스",      "image": "/images/games/samus.jpg" },
+    { "id": "10", "name": "Sonic the Hedgehog",   "nameKo": "소닉",        "image": "/images/games/sonic.jpg" },
+    { "id": "11", "name": "Ellie (The Last of Us)","nameKo": "엘리",       "image": "/images/games/ellie.jpg" },
+    { "id": "12", "name": "Arthur Morgan (RDR2)",  "nameKo": "아서 모건",  "image": "/images/games/arthur.jpg" },
+    { "id": "13", "name": "Steve (Minecraft)",    "nameKo": "스티브",      "image": "/images/games/steve.jpg" },
+    { "id": "14", "name": "Jinx (League)",        "nameKo": "징크스",      "image": "/images/games/jinx.jpg" },
+    { "id": "15", "name": "Tracer (Overwatch)",   "nameKo": "트레이서",    "image": "/images/games/tracer.jpg" },
+    { "id": "16", "name": "V (Cyberpunk 2077)",   "nameKo": "V",           "image": "/images/games/v.jpg" }
+  ]
+}

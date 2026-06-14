@@ -1,0 +1,17 @@
+{
+  "id": "bts-members",
+  "title": "BTS Member Worldcup",
+  "titleSub": "Who is your ultimate BTS bias?",
+  "category": "kpop",
+  "description": "All 7 BTS members go head to head — settle the ultimate bias debate!",
+  "contestants": [
+    { "id": "1", "name": "Jung Kook",   "nameKo": "정국",   "image": "/images/bts/jungkook.jpg" },
+    { "id": "2", "name": "V (Taehyung)","nameKo": "뷔",     "image": "/images/bts/v.jpg" },
+    { "id": "3", "name": "Jimin",       "nameKo": "지민",   "image": "/images/bts/jimin.jpg" },
+    { "id": "4", "name": "RM",          "nameKo": "RM",     "image": "/images/bts/rm.jpg" },
+    { "id": "5", "name": "SUGA",        "nameKo": "슈가",   "image": "/images/bts/suga.jpg" },
+    { "id": "6", "name": "j-hope",      "nameKo": "제이홉", "image": "/images/bts/jhope.jpg" },
+    { "id": "7", "name": "Jin",         "nameKo": "진",     "image": "/images/bts/jin.jpg" },
+    { "id": "8", "name": "Jung Kook (solo)","nameKo": "정국 솔로","image": "/images/bts/jungkook-solo.jpg" }
+  ]
+}

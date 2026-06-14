@@ -1,0 +1,25 @@
+{
+  "id": "marvel-heroes",
+  "title": "Marvel Superhero Worldcup",
+  "titleSub": "Who is the ultimate Marvel hero?",
+  "category": "comics",
+  "description": "16 iconic Marvel superheroes battle it out — you decide who's the greatest!",
+  "contestants": [
+    { "id": "1",  "name": "Spider-Man",       "nameKo": "스파이더맨",  "image": "/images/marvel/spiderman.jpg" },
+    { "id": "2",  "name": "Iron Man",         "nameKo": "아이언맨",    "image": "/images/marvel/ironman.jpg" },
+    { "id": "3",  "name": "Captain America",  "nameKo": "캡틴 아메리카","image": "/images/marvel/cap.jpg" },
+    { "id": "4",  "name": "Thor",             "nameKo": "토르",        "image": "/images/marvel/thor.jpg" },
+    { "id": "5",  "name": "Black Widow",      "nameKo": "블랙 위도우", "image": "/images/marvel/blackwidow.jpg" },
+    { "id": "6",  "name": "Doctor Strange",   "nameKo": "닥터 스트레인지","image": "/images/marvel/strange.jpg" },
+    { "id": "7",  "name": "Black Panther",    "nameKo": "블랙 팬서",   "image": "/images/marvel/panther.jpg" },
+    { "id": "8",  "name": "Hulk",             "nameKo": "헐크",        "image": "/images/marvel/hulk.jpg" },
+    { "id": "9",  "name": "Wanda / Scarlet Witch","nameKo": "완다",    "image": "/images/marvel/wanda.jpg" },
+    { "id": "10", "name": "Loki",             "nameKo": "로키",        "image": "/images/marvel/loki.jpg" },
+    { "id": "11", "name": "Ant-Man",          "nameKo": "앤트맨",      "image": "/images/marvel/antman.jpg" },
+    { "id": "12", "name": "Hawkeye",          "nameKo": "호크아이",    "image": "/images/marvel/hawkeye.jpg" },
+    { "id": "13", "name": "Groot",            "nameKo": "그루트",      "image": "/images/marvel/groot.jpg" },
+    { "id": "14", "name": "Star-Lord",        "nameKo": "스타로드",    "image": "/images/marvel/starlord.jpg" },
+    { "id": "15", "name": "Shang-Chi",        "nameKo": "샹치",        "image": "/images/marvel/shangchi.jpg" },
+    { "id": "16", "name": "Deadpool",         "nameKo": "데드풀",      "image": "/images/marvel/deadpool.jpg" }
+  ]
+}

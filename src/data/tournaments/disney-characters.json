@@ -1,0 +1,25 @@
+{
+  "id": "disney-characters",
+  "title": "Disney Character Worldcup",
+  "titleSub": "Which Disney character is your all-time favourite?",
+  "category": "disney",
+  "description": "16 beloved Disney & Pixar characters face off — pick your ultimate favourite!",
+  "contestants": [
+    { "id": "1",  "name": "Elsa (Frozen)",      "nameKo": "엘사",     "image": "/images/disney/elsa.jpg" },
+    { "id": "2",  "name": "Moana",              "nameKo": "모아나",   "image": "/images/disney/moana.jpg" },
+    { "id": "3",  "name": "Simba (Lion King)",  "nameKo": "심바",     "image": "/images/disney/simba.jpg" },
+    { "id": "4",  "name": "Mulan",              "nameKo": "뮬란",     "image": "/images/disney/mulan.jpg" },
+    { "id": "5",  "name": "Ariel (Little Mermaid)","nameKo": "아리엘","image": "/images/disney/ariel.jpg" },
+    { "id": "6",  "name": "Belle (Beauty & Beast)","nameKo": "벨",    "image": "/images/disney/belle.jpg" },
+    { "id": "7",  "name": "Rapunzel (Tangled)", "nameKo": "라푼젤",  "image": "/images/disney/rapunzel.jpg" },
+    { "id": "8",  "name": "Woody (Toy Story)",  "nameKo": "우디",     "image": "/images/disney/woody.jpg" },
+    { "id": "9",  "name": "Buzz Lightyear",     "nameKo": "버즈",     "image": "/images/disney/buzz.jpg" },
+    { "id": "10", "name": "WALL-E",             "nameKo": "월-E",    "image": "/images/disney/walle.jpg" },
+    { "id": "11", "name": "Stitch (Lilo & Stitch)","nameKo": "스티치","image": "/images/disney/stitch.jpg" },
+    { "id": "12", "name": "Tinker Bell",        "nameKo": "팅커벨",  "image": "/images/disney/tinkerbell.jpg" },
+    { "id": "13", "name": "Aladdin",            "nameKo": "알라딘",  "image": "/images/disney/aladdin.jpg" },
+    { "id": "14", "name": "Cinderella",         "nameKo": "신데렐라","image": "/images/disney/cinderella.jpg" },
+    { "id": "15", "name": "Jack Skellington",   "nameKo": "잭 스켈링턴","image": "/images/disney/jack.jpg" },
+    { "id": "16", "name": "Miguel (Coco)",      "nameKo": "미구엘",  "image": "/images/disney/miguel.jpg" }
+  ]
+}
